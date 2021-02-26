@@ -20,4 +20,5 @@
 - Собрать все вместе
 - Нарисовать все
 
-
+Схема Node ROS
+![Node Scheme](/images/logo.png)
