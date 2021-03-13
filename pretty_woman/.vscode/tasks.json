@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "colcon",
+			"args": [
+				"--workspace",
+				"/Users/grigorijhanin/gravitsapa/pretty_woman",
+				"build"
+			],
+			"problemMatcher": [
+				"$roslaunch"
+			],
+			"group": "build",
+			"label": "colcon: build",
+			"isBackground": true
+		}
+	]
+}

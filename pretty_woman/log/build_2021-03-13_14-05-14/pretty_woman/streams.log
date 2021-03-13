@@ -1,0 +1,24 @@
+[0.383s] Invoking command in '/Users/grigorijhanin/gravitsapa/pretty_woman': PYTHONPATH=/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log --single-version-externally-managed
+[0.664s] running egg_info
+[0.665s] writing build/pretty_woman/pretty_woman.egg-info/PKG-INFO
+[0.665s] writing dependency_links to build/pretty_woman/pretty_woman.egg-info/dependency_links.txt
+[0.666s] writing entry points to build/pretty_woman/pretty_woman.egg-info/entry_points.txt
+[0.666s] writing requirements to build/pretty_woman/pretty_woman.egg-info/requires.txt
+[0.666s] writing top-level names to build/pretty_woman/pretty_woman.egg-info/top_level.txt
+[0.693s] reading manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.703s] writing manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.704s] running build
+[0.704s] running build_py
+[0.704s] running install
+[0.705s] running install_lib
+[0.707s] running install_data
+[0.708s] running install_egg_info
+[0.711s] removing '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info' (and everything under it)
+[0.712s] Copying build/pretty_woman/pretty_woman.egg-info to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info
+[0.715s] running install_scripts
+[0.748s] Installing main_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.748s] Installing minimal_publisher script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.749s] Installing minimal_subscriber script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.749s] Installing test_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.749s] writing list of installed files to '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log'
+[0.769s] Invoked command in '/Users/grigorijhanin/gravitsapa/pretty_woman' returned '0': PYTHONPATH=/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log --single-version-externally-managed

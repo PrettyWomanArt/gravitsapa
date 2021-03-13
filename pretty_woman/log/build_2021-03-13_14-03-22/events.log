@@ -1,0 +1,43 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (pretty_woman) JobQueued: {'identifier': 'pretty_woman', 'dependencies': OrderedDict()}
+[0.000854] (pretty_woman) JobStarted: {'identifier': 'pretty_woman'}
+[0.099988] (-) TimerEvent: {}
+[0.200796] (-) TimerEvent: {}
+[0.306055] (-) TimerEvent: {}
+[0.400889] (pretty_woman) Command: {'cmd': ['/usr/local/opt/python@3.8/bin/python3.8', 'setup.py', 'egg_info', '--egg-base', 'build/pretty_woman', 'build', '--build-base', '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build', 'install', '--prefix', '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman', '--record', '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log', '--single-version-externally-managed'], 'cwd': '/Users/grigorijhanin/gravitsapa/pretty_woman', 'env': {'TERM_PROGRAM': 'vscode', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/', 'TERM_PROGRAM_VERSION': '1.54.2', 'ROS_PYTHON_VERSION': '3', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'ROS_VERSION': '2', 'COLCON_PREFIX_PATH': '/Users/grigorijhanin/gravitsapa/pretty_woman/install:/Users/grigorijhanin/ros2_foxy/ros2-osx', 'AMENT_PREFIX_PATH': '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman:/Users/grigorijhanin/ros2_foxy/ros2-osx', 'USER': 'grigorijhanin', 'COMMAND_MODE': 'unix2003', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.UrZAnEoUUx/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F5:0x7:0x31', 'PATH': '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin', 'PWD': '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman', 'COLCON': '1', 'LANG': 'ru_RU.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XPC_FLAGS': '0x0', 'XPC_SERVICE_NAME': '0', 'SHLVL': '2', 'HOME': '/Users/grigorijhanin', 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'ROS_DISTRO': 'foxy', 'DYLD_LIBRARY_PATH': '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib', 'PYTHONPATH': '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages', 'LOGNAME': 'grigorijhanin', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock', 'PKG_CONFIG_PATH': '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig', 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)', 'GIT_ASKPASS': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/Users/grigorijhanin/ros2_foxy/ros2-osx', 'ROS_LOCALHOST_ONLY': '0', 'COLORTERM': 'truecolor', '_': '/usr/bin/env'}, 'shell': False}
+[0.406106] (-) TimerEvent: {}
+[0.506426] (-) TimerEvent: {}
+[0.609973] (-) TimerEvent: {}
+[0.687938] (pretty_woman) StdoutLine: {'line': b'running egg_info\n'}
+[0.688526] (pretty_woman) StdoutLine: {'line': b'writing build/pretty_woman/pretty_woman.egg-info/PKG-INFO\n'}
+[0.688861] (pretty_woman) StdoutLine: {'line': b'writing dependency_links to build/pretty_woman/pretty_woman.egg-info/dependency_links.txt\n'}
+[0.689151] (pretty_woman) StdoutLine: {'line': b'writing entry points to build/pretty_woman/pretty_woman.egg-info/entry_points.txt\n'}
+[0.689524] (pretty_woman) StdoutLine: {'line': b'writing requirements to build/pretty_woman/pretty_woman.egg-info/requires.txt\n'}
+[0.689921] (pretty_woman) StdoutLine: {'line': b'writing top-level names to build/pretty_woman/pretty_woman.egg-info/top_level.txt\n'}
+[0.710137] (-) TimerEvent: {}
+[0.715547] (pretty_woman) StdoutLine: {'line': b"reading manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'\n"}
+[0.725767] (pretty_woman) StdoutLine: {'line': b"writing manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'\n"}
+[0.726122] (pretty_woman) StdoutLine: {'line': b'running build\n'}
+[0.726249] (pretty_woman) StdoutLine: {'line': b'running build_py\n'}
+[0.726448] (pretty_woman) StdoutLine: {'line': b'copying pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman\n'}
+[0.727198] (pretty_woman) StdoutLine: {'line': b'copying pretty_woman/test_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman\n'}
+[0.727921] (pretty_woman) StdoutLine: {'line': b'running install\n'}
+[0.728241] (pretty_woman) StdoutLine: {'line': b'running install_lib\n'}
+[0.730051] (pretty_woman) StdoutLine: {'line': b'copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman\n'}
+[0.730369] (pretty_woman) StdoutLine: {'line': b'copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/test_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman\n'}
+[0.731285] (pretty_woman) StdoutLine: {'line': b'byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/main_node.py to main_node.cpython-38.pyc\n'}
+[0.732737] (pretty_woman) StdoutLine: {'line': b'byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/test_node.py to test_node.cpython-38.pyc\n'}
+[0.733497] (pretty_woman) StdoutLine: {'line': b'running install_data\n'}
+[0.734435] (pretty_woman) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.737733] (pretty_woman) StdoutLine: {'line': b"removing '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.738624] (pretty_woman) StdoutLine: {'line': b'Copying build/pretty_woman/pretty_woman.egg-info to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info\n'}
+[0.742217] (pretty_woman) StdoutLine: {'line': b'running install_scripts\n'}
+[0.772792] (pretty_woman) StdoutLine: {'line': b'Installing main_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman\n'}
+[0.773248] (pretty_woman) StdoutLine: {'line': b'Installing minimal_publisher script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman\n'}
+[0.773614] (pretty_woman) StdoutLine: {'line': b'Installing minimal_subscriber script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman\n'}
+[0.773944] (pretty_woman) StdoutLine: {'line': b'Installing test_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman\n'}
+[0.774343] (pretty_woman) StdoutLine: {'line': b"writing list of installed files to '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log'\n"}
+[0.794380] (pretty_woman) CommandEnded: {'returncode': 0}
+[0.818407] (-) TimerEvent: {}
+[0.834478] (pretty_woman) JobEnded: {'identifier': 'pretty_woman', 'rc': 0}
+[0.836109] (-) EventReactorShutdown: {}

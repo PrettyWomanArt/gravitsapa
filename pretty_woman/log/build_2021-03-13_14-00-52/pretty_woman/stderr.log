@@ -1,0 +1,5 @@
+  File "/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/test_node.py", line 18
+    loop.start()
+    ^
+SyntaxError: invalid syntax
+

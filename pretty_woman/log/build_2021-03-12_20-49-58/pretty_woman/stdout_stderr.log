@@ -1,0 +1,43 @@
+running egg_info
+creating build/pretty_woman/pretty_woman.egg-info
+writing build/pretty_woman/pretty_woman.egg-info/PKG-INFO
+writing dependency_links to build/pretty_woman/pretty_woman.egg-info/dependency_links.txt
+writing entry points to build/pretty_woman/pretty_woman.egg-info/entry_points.txt
+writing requirements to build/pretty_woman/pretty_woman.egg-info/requires.txt
+writing top-level names to build/pretty_woman/pretty_woman.egg-info/top_level.txt
+writing manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+reading manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+writing manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+copying pretty_woman/minimal_publisher.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+copying pretty_woman/minimal_subscriber.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+copying pretty_woman/__init__.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+copying pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+running install
+running install_lib
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/minimal_publisher.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/minimal_subscriber.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/__init__.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/minimal_publisher.py to minimal_publisher.cpython-38.pyc
+byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/minimal_subscriber.py to minimal_subscriber.cpython-38.pyc
+byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/__init__.py to __init__.cpython-38.pyc
+byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/main_node.py to main_node.cpython-38.pyc
+running install_data
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/share/ament_index
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/share/ament_index/resource_index
+creating /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/share/ament_index/resource_index/packages
+copying resource/pretty_woman -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/share/ament_index/resource_index/packages
+copying package.xml -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/share/pretty_woman
+running install_egg_info
+Copying build/pretty_woman/pretty_woman.egg-info to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info
+running install_scripts
+Installing main_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+Installing minimal_publisher script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+Installing minimal_subscriber script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+writing list of installed files to '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log'
