@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 
-from std_msgs.msg import Int16, Bool
+from std_msgs.msg import String, Int16, Bool
 
 
 class MainNode(Node):
@@ -13,7 +13,7 @@ class MainNode(Node):
         self.film_publisher = self.create_publisher(Int16, 'film_control', 10)
         self.eye_publisher = self.create_publisher(Bool, 'eye_control', 10)
         self.lips_subscription = self.create_subscription(
-            Bool,
+            String,
             'lips_status',
             self.lips_listener,
             10)
@@ -25,7 +25,14 @@ class MainNode(Node):
         )
         
     def lips_listener(self, msg):
-        self.eye_control_callback(msg)
+        if msg.data == "True":
+            ans = Bool()
+            ans.data = True
+            self.eye_control_callback(ans)
+        elif msg.data == "False":
+            ans = Bool()
+            ans.data = False
+            self.eye_control_callback(ans)
 
     def eye_control_callback(self, msg):
         if msg.data and not self.eye_opened:
