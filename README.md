@@ -21,4 +21,4 @@
 - Нарисовать все
 
 Схема Node ROS
-![Node Scheme](/images/node_scheme_rqt.png)
+![Node Scheme](/images/node_scheme_rqt.bmp)
