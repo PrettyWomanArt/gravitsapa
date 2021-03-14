@@ -1,4 +1,5 @@
 [console_scripts]
+eye_node = pretty_woman.eye_node:main
 main_node = pretty_woman.main_node:main
 minimal_publisher = pretty_woman.minimal_publisher:main
 minimal_subscriber = pretty_woman.minimal_subscriber:main

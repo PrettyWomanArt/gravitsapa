@@ -1,0 +1,31 @@
+[0.395s] Invoking command in '/Users/grigorijhanin/gravitsapa/pretty_woman': PYTHONPATH=/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log --single-version-externally-managed
+[0.689s] running egg_info
+[0.690s] writing build/pretty_woman/pretty_woman.egg-info/PKG-INFO
+[0.690s] writing dependency_links to build/pretty_woman/pretty_woman.egg-info/dependency_links.txt
+[0.691s] writing entry points to build/pretty_woman/pretty_woman.egg-info/entry_points.txt
+[0.691s] writing requirements to build/pretty_woman/pretty_woman.egg-info/requires.txt
+[0.691s] writing top-level names to build/pretty_woman/pretty_woman.egg-info/top_level.txt
+[0.718s] reading manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.729s] writing manifest file 'build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.729s] running build
+[0.729s] running build_py
+[0.729s] copying pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+[0.733s] copying pretty_woman/eye_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman
+[0.734s] running install
+[0.735s] running install_lib
+[0.737s] copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/main_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+[0.737s] copying /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build/lib/pretty_woman/eye_node.py -> /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman
+[0.738s] byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/main_node.py to main_node.cpython-38.pyc
+[0.739s] byte-compiling /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/eye_node.py to eye_node.cpython-38.pyc
+[0.740s] running install_data
+[0.741s] running install_egg_info
+[0.744s] removing '/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info' (and everything under it)
+[0.744s] Copying build/pretty_woman/pretty_woman.egg-info to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info
+[0.747s] running install_scripts
+[0.779s] Installing eye_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.779s] Installing main_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.780s] Installing minimal_publisher script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.780s] Installing minimal_subscriber script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.780s] Installing test_node script to /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/pretty_woman
+[0.781s] writing list of installed files to '/Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log'
+[0.801s] Invoked command in '/Users/grigorijhanin/gravitsapa/pretty_woman' returned '0': PYTHONPATH=/Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/pretty_woman/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/pretty_woman/build/pretty_woman/install.log --single-version-externally-managed

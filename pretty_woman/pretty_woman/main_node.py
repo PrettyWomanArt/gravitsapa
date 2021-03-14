@@ -13,7 +13,7 @@ class MainNode(Node):
         self.film_publisher = self.create_publisher(Int16, 'film_control', 10)
         self.eye_publisher = self.create_publisher(Bool, 'eye_control', 10)
         self.lips_subscription = self.create_subscription(
-            String,
+            Bool,
             'lips_status',
             self.lips_listener,
             10)
@@ -25,21 +25,18 @@ class MainNode(Node):
         )
         
     def lips_listener(self, msg):
-        if msg.data == "True":
-            ans = Bool()
-            ans.data = True
-            self.eye_control_callback(ans)
-        elif msg.data == "False":
-            ans = Bool()
-            ans.data = False
-            self.eye_control_callback(ans)
+        if msg.data:
+            self.get_logger().info('Lips are touched')
+        else:
+            self.get_logger().info('Lips are untouched')
+        self.eye_control_callback(msg)
 
     def eye_control_callback(self, msg):
         if msg.data and not self.eye_opened:
             # If lips are touched and eyes are closed -> open eye 
             ans = Bool()
             ans.data = True
-            self.get_logger().info('Lips are touched. Initialise opening')
+            self.get_logger().info('Initialise opening')
             self.eye_publisher.publish(ans)
         elif not msg.data and self.eye_opened:
             # If lips are not touched and eyes are opened -> close eye
@@ -56,11 +53,12 @@ class MainNode(Node):
         self.film_publisher.publish(msg)
 
     def eye_listner_callback(self, msg):
-        if msg.data:
-            self.get_logger().info('Eyes are opened')
-        else:
-            self.get_logger().info('Eyes are closed')
-        self.eye_opened = msg.data
+        if msg.data != self.eye_opened:
+            if msg.data:
+                self.get_logger().info('Eyes are opened')
+            else:
+                self.get_logger().info('Eyes are closed')
+            self.eye_opened = msg.data
 
 def main(args=None):
     rclpy.init(args=args)

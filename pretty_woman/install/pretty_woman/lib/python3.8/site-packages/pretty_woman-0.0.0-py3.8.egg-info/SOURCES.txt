@@ -9,6 +9,7 @@ build/pretty_woman/pretty_woman.egg-info/requires.txt
 build/pretty_woman/pretty_woman.egg-info/top_level.txt
 build/pretty_woman/pretty_woman.egg-info/zip-safe
 pretty_woman/__init__.py
+pretty_woman/eye_node.py
 pretty_woman/main_node.py
 pretty_woman/minimal_publisher.py
 pretty_woman/minimal_subscriber.py

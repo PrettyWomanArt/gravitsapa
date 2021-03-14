@@ -23,7 +23,8 @@ setup(
             'minimal_publisher = pretty_woman.minimal_publisher:main',
             'minimal_subscriber = pretty_woman.minimal_subscriber:main',
             'main_node = pretty_woman.main_node:main',
-            'test_node = pretty_woman.test_node:main'
+            'test_node = pretty_woman.test_node:main',
+            'eye_node = pretty_woman.eye_node:main'
         ],
     },
 )
