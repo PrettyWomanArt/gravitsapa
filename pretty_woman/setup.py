@@ -24,7 +24,9 @@ setup(
             'minimal_subscriber = pretty_woman.minimal_subscriber:main',
             'main_node = pretty_woman.main_node:main',
             'test_node = pretty_woman.test_node:main',
-            'eye_node = pretty_woman.eye_node:main'
+            'eye_node = pretty_woman.eye_node:main',
+            'film_node = pretty_woman.film_node:main',
+            'lips_node = pretty_woman.lips_node:main'
         ],
     },
 )
