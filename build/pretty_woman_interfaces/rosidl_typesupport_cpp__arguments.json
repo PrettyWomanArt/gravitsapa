@@ -1,0 +1,17 @@
+{
+  "package_name": "pretty_woman_interfaces",
+  "output_dir": "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/rosidl_typesupport_cpp/pretty_woman_interfaces",
+  "template_dir": "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces:srv/InterfaceSerial.idl"
+  ],
+  "target_dependencies": [
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces/srv/InterfaceSerial.idl"
+  ]
+}

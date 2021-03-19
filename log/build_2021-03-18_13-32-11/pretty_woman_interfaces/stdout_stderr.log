@@ -1,0 +1,27 @@
+-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+CMake Error at /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:218 (message):
+  Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+  system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)
+  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindOpenSSL.cmake:536 (find_package_handle_standard_args)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:35 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".
+make: *** [cmake_check_build_system] Error 1

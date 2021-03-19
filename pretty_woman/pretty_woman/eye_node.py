@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 import serial
 
-from std_msgs.msg import Bool
+from std_msgs.msg import Bool, String
 
 
 class EyeNode(Node):
@@ -11,7 +11,8 @@ class EyeNode(Node):
         self.get_logger().info('EyeNode started')
         self.eye_listener = self.create_subscription(Bool, 'eye_control', self.eye_callback, 10)
         self.eye_publisher = self.create_publisher(Bool, 'eye_status', 10)
-        self.port = serial.Serial("/dev/cu.usbmodem14201", 115200)
+        self.serial_send_publisher = self.create_publisher(String, 'serial_send', 10)
+        self.serial_listner = self.create_subscription(String, 'serial_answer', 10)
         self.timer = self.create_timer(0.5, self.eye_status)
 
     def eye_callback(self, msg):

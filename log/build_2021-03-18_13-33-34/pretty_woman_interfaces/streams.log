@@ -1,0 +1,29 @@
+[0.051s] Invoking command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4
+[0.150s] -- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+[0.189s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[0.404s] -- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+[0.503s] -- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)
+[0.555s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[0.573s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[0.847s] CMake Error at /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:218 (message):
+[0.847s]   Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+[0.847s]   system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR)
+[0.848s] Call Stack (most recent call first):
+[0.848s]   /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)
+[0.848s]   /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindOpenSSL.cmake:536 (find_package_handle_standard_args)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.848s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.849s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.849s]   CMakeLists.txt:35 (find_package)
+[0.849s] 
+[0.849s] 
+[0.849s] -- Configuring incomplete, errors occurred!
+[0.849s] See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".
+[0.851s] make: *** [cmake_check_build_system] Error 1
+[0.853s] Invoked command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4

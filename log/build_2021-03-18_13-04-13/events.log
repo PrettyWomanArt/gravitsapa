@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'pretty_woman'}
+[0.000313] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.000776] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.051139] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.052102] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces', '-DCMAKE_INSTALL_PREFIX=/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces'], 'cwd': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('PWD', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.103912] (-) TimerEvent: {}
+[0.114086] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.153318] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.206471] (-) TimerEvent: {}
+[0.309283] (-) TimerEvent: {}
+[0.364231] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[0.410557] (-) TimerEvent: {}
+[0.436412] (pretty_woman_interfaces) StderrLine: {'line': b"Error parsing '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml':\n"}
+[0.445106] (pretty_woman_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.445320] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/usr/local/lib/python3.8/site-packages/catkin_pkg/package.py", line 596, in parse_package_string\n'}
+[0.445442] (pretty_woman_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.445542] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.445641] (pretty_woman_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.445785] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.445877] (pretty_woman_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.445967] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.446089] (pretty_woman_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.446179] (pretty_woman_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: junk after document element: line 19, column 0\n'}
+[0.446268] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[0.446399] (pretty_woman_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.446501] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[0.446589] (pretty_woman_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.446677] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[0.446766] (pretty_woman_interfaces) StderrLine: {'line': b'    main()\n'}
+[0.446854] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[0.446943] (pretty_woman_interfaces) StderrLine: {'line': b'    raise e\n'}
+[0.447030] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[0.447119] (pretty_woman_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.447206] (pretty_woman_interfaces) StderrLine: {'line': b'  File "/usr/local/lib/python3.8/site-packages/catkin_pkg/package.py", line 598, in parse_package_string\n'}
+[0.447295] (pretty_woman_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.447383] (pretty_woman_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml':\n"}
+[0.447471] (pretty_woman_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.447559] (pretty_woman_interfaces) StderrLine: {'line': b'junk after document element: line 19, column 0\n'}
+[0.451836] (pretty_woman_interfaces) StderrLine: {'line': b'CMake Error at /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.452189] (pretty_woman_interfaces) StderrLine: {'line': b'  execute_process(/usr/local/bin/python3\n'}
+[0.452303] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.452551] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml\n'}
+[0.452689] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/ament_cmake_core/package.cmake)\n'}
+[0.452788] (pretty_woman_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[0.452882] (pretty_woman_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.452973] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.453063] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.453151] (pretty_woman_interfaces) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[0.453277] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[0.453379] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[0.453467] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.453561] (pretty_woman_interfaces) StdoutLine: {'line': b'See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.455515] (pretty_woman_interfaces) CommandEnded: {'returncode': 1}
+[0.456245] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 1}
+[0.457897] (-) EventReactorShutdown: {}

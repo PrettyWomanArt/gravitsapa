@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pretty_woman_interfaces/srv/InterfaceSerial.srv
+// generated code does not contain a copyright notice
+
+
+module pretty_woman_interfaces {
+  module srv {
+    struct InterfaceSerial_Request {
+      string str;
+    };
+    struct InterfaceSerial_Response {
+      string str;
+    };
+  };
+};

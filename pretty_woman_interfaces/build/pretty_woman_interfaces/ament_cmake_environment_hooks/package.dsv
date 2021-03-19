@@ -1,0 +1,4 @@
+source;share/pretty_woman_interfaces/local_setup.bash
+source;share/pretty_woman_interfaces/local_setup.dsv
+source;share/pretty_woman_interfaces/local_setup.sh
+source;share/pretty_woman_interfaces/local_setup.zsh

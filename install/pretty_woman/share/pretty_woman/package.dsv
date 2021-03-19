@@ -1,0 +1,6 @@
+source;share/pretty_woman/hook/pythonpath.ps1
+source;share/pretty_woman/hook/pythonpath.dsv
+source;share/pretty_woman/hook/pythonpath.sh
+source;share/pretty_woman/hook/ament_prefix_path.ps1
+source;share/pretty_woman/hook/ament_prefix_path.dsv
+source;share/pretty_woman/hook/ament_prefix_path.sh

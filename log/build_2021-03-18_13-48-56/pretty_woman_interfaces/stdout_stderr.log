@@ -1,0 +1,74 @@
+-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+-- Found OpenSSL: /usr/lib/libcrypto.dylib (found version "1.1.1i")  
+-- Found FastRTPS: /Users/grigorijhanin/ros2_foxy/ros2-osx/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/local/bin/python3 (found version "3.8.7") 
+-- Found ament_cmake_ros: 0.9.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.7", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/python_cmake_module/cmake)
+-- Using PythonExtra_INCLUDE_DIRS: /usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/include/python3.8;/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/include/python3.8
+-- Using PythonExtra_LIBRARIES: /usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin/libpython3.8.dylib
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /Users/grigorijhanin/Library/Python/3.8/lib/python/site-packages/numpy/core/include
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces
+[  3%] Generating C code for ROS interfaces
+Scanning dependencies of target pretty_woman_interfaces__cpp
+[  6%] Generating C++ code for ROS interfaces
+Scanning dependencies of target pretty_woman_interfaces__rosidl_generator_c
+[  6%] Built target pretty_woman_interfaces__cpp
+[  9%] Building C object CMakeFiles/pretty_woman_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pretty_woman_interfaces/srv/detail/interface_serial__functions.c.o
+[ 12%] Generating C++ type support for eProsima Fast-RTPS
+[ 16%] Generating C++ type support dispatch for ROS interfaces
+[ 19%] Generating C++ introspection for ROS interfaces
+Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_cpp
+Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp
+[ 22%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pretty_woman_interfaces/srv/interface_serial__type_support.cpp.o
+Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 25%] Linking C shared library libpretty_woman_interfaces__rosidl_generator_c.dylib
+[ 29%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pretty_woman_interfaces/srv/detail/interface_serial__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pretty_woman_interfaces/srv/detail/dds_fastrtps/interface_serial__type_support.cpp.o
+[ 32%] Built target pretty_woman_interfaces__rosidl_generator_c
+[ 35%] Generating C introspection for ROS interfaces
+[ 38%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_cpp.dylib
+Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_introspection_c
+[ 41%] Building C object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pretty_woman_interfaces/srv/detail/interface_serial__type_support.c.o
+[ 45%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_introspection_cpp.dylib
+[ 45%] Built target pretty_woman_interfaces__rosidl_typesupport_cpp
+[ 48%] Linking C shared library libpretty_woman_interfaces__rosidl_typesupport_introspection_c.dylib
+[ 51%] Generating C type support dispatch for ROS interfaces
+[ 51%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp
+[ 51%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_c
+[ 54%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib
+Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_c
+[ 58%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pretty_woman_interfaces/srv/interface_serial__type_support.cpp.o
+ld: cannot link directly with dylib/framework, your binary is not an allowed client of /usr/lib/libcrypto.dylib for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib] Error 1
+make[1]: *** [CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 61%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_c.dylib
+[ 61%] Built target pretty_woman_interfaces__rosidl_typesupport_c
+make: *** [all] Error 2

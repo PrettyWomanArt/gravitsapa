@@ -1,0 +1,5 @@
+ld: cannot link directly with dylib/framework, your binary is not an allowed client of /usr/lib/libcrypto.dylib for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib] Error 1
+make[1]: *** [CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (-) JobUnselected: {'identifier': 'pretty_woman'}
+[0.000380] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.001071] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.053371] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.067853] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'build'}
+[0.070100] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', '--', '-j4', '-l4'], 'cwd': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('PWD', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.102504] (-) TimerEvent: {}
+[0.205294] (-) TimerEvent: {}
+[0.307852] (-) TimerEvent: {}
+[0.377481] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.408205] (-) TimerEvent: {}
+[0.431190] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.508326] (-) TimerEvent: {}
+[0.610518] (-) TimerEvent: {}
+[0.702765] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[0.712477] (-) TimerEvent: {}
+[0.812881] (-) TimerEvent: {}
+[0.819438] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.824753] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.827613] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.833598] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.858310] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.863316] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces\n'}
+[0.902539] (pretty_woman_interfaces) CommandEnded: {'returncode': 0}
+[0.914581] (-) TimerEvent: {}
+[1.018288] (-) TimerEvent: {}
+[1.088040] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'install'}
+[1.107321] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'], 'cwd': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('PWD', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[1.120719] (-) TimerEvent: {}
+[1.122545] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.123731] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/package_run_dependencies/pretty_woman_interfaces\n'}
+[1.124262] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/parent_prefix_path/pretty_woman_interfaces\n'}
+[1.124430] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/ament_prefix_path.sh\n'}
+[1.124771] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.125006] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/path.sh\n'}
+[1.125395] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/path.dsv\n'}
+[1.125709] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.bash\n'}
+[1.126115] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.sh\n'}
+[1.126299] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.zsh\n'}
+[1.126518] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.dsv\n'}
+[1.126987] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.dsv\n'}
+[1.127216] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/packages/pretty_woman_interfaces\n'}
+[1.127443] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.127824] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/cmake/pretty_woman_interfacesConfig.cmake\n'}
+[1.128278] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/cmake/pretty_woman_interfacesConfig-version.cmake\n'}
+[1.128499] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Up-to-date: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.xml\n'}
+[1.131517] (pretty_woman_interfaces) CommandEnded: {'returncode': 0}
+[1.221275] (-) TimerEvent: {}
+[1.321932] (-) TimerEvent: {}
+[1.379412] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 0}
+[1.380918] (-) EventReactorShutdown: {}

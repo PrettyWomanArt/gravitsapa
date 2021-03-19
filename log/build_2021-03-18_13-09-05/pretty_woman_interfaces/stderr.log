@@ -1,0 +1,38 @@
+Error parsing '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml':
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/catkin_pkg/package.py", line 596, in parse_package_string
+    root = dom.parseString(data)
+  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+    return expatbuilder.parseString(string)
+  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+    return builder.parseString(string)
+  File "/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+xml.parsers.expat.ExpatError: junk after document element: line 19, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+    main()
+  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+    raise e
+  File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+    package = parse_package_string(
+  File "/usr/local/lib/python3.8/site-packages/catkin_pkg/package.py", line 598, in parse_package_string
+    raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml':
+The manifest contains invalid XML:
+junk after document element: line 19, column 0
+CMake Error at /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+  execute_process(/usr/local/bin/python3
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml
+  /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+
+

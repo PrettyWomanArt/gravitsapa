@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'pretty_woman'}
+[0.000878] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.000942] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.052215] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.053873] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'build'}
+[0.055815] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', '--', '-j4', '-l4'], 'cwd': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('PWD', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099767] (-) TimerEvent: {}
+[0.205397] (-) TimerEvent: {}
+[0.308592] (-) TimerEvent: {}
+[0.333456] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.386315] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.412797] (-) TimerEvent: {}
+[0.514345] (-) TimerEvent: {}
+[0.614803] (-) TimerEvent: {}
+[0.644263] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[0.719402] (-) TimerEvent: {}
+[0.761591] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.766706] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.769683] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.774317] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)\n'}
+[0.778995] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.787083] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)\n'}
+[0.819629] (-) TimerEvent: {}
+[0.850830] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[0.883981] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[0.924361] (-) TimerEvent: {}
+[1.024742] (-) TimerEvent: {}
+[1.080958] (pretty_woman_interfaces) StderrLine: {'line': b'CMake Error at /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:218 (message):\n'}
+[1.081166] (pretty_woman_interfaces) StderrLine: {'line': b'  Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the\n'}
+[1.081277] (pretty_woman_interfaces) StderrLine: {'line': b'  system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR)\n'}
+[1.081368] (pretty_woman_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.081455] (pretty_woman_interfaces) StderrLine: {'line': b'  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)\n'}
+[1.081541] (pretty_woman_interfaces) StderrLine: {'line': b'  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindOpenSSL.cmake:536 (find_package_handle_standard_args)\n'}
+[1.081626] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)\n'}
+[1.081711] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)\n'}
+[1.081843] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)\n'}
+[1.081931] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)\n'}
+[1.082154] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)\n'}
+[1.082298] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)\n'}
+[1.082487] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[1.082615] (pretty_woman_interfaces) StderrLine: {'line': b'  CMakeLists.txt:37 (find_package)\n'}
+[1.082746] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[1.082839] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[1.082929] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.083024] (pretty_woman_interfaces) StdoutLine: {'line': b'See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.088955] (pretty_woman_interfaces) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[1.090282] (pretty_woman_interfaces) CommandEnded: {'returncode': 2}
+[1.128325] (-) TimerEvent: {}
+[1.229161] (-) TimerEvent: {}
+[1.323503] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 2}
+[1.325391] (-) EventReactorShutdown: {}

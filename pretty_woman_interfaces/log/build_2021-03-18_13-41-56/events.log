@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.000709] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.055698] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.057301] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces', '-DCMAKE_INSTALL_PREFIX=/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/install/pretty_woman_interfaces'], 'cwd': '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('DOPENSSL_ROOT_DIR', '/usr/local/opt/openssl'), ('PWD', '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('DOPENSSL_LIBRARIES', '/usr/local/opt/openssl/lib'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099467] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.300541] (-) TimerEvent: {}
+[0.401765] (-) TimerEvent: {}
+[0.428652] (pretty_woman_interfaces) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 12.0.0.12000032\n'}
+[0.498935] (pretty_woman_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 12.0.0.12000032\n'}
+[0.501782] (-) TimerEvent: {}
+[0.519560] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603556] (-) TimerEvent: {}
+[0.704665] (-) TimerEvent: {}
+[0.804485] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.804770] (-) TimerEvent: {}
+[0.813498] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped\n'}
+[0.814587] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.824445] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.836610] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.908866] (-) TimerEvent: {}
+[1.011805] (-) TimerEvent: {}
+[1.062154] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.069930] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped\n'}
+[1.070234] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.070920] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.093134] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)\n'}
+[1.113989] (-) TimerEvent: {}
+[1.152989] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.7", minimum required is "3") \n'}
+[1.153296] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[1.215006] (-) TimerEvent: {}
+[1.320238] (-) TimerEvent: {}
+[1.420598] (-) TimerEvent: {}
+[1.513571] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[1.521611] (-) TimerEvent: {}
+[1.626816] (-) TimerEvent: {}
+[1.695305] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)\n'}
+[1.707094] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.728547] (-) TimerEvent: {}
+[1.739218] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)\n'}
+[1.809833] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[1.831371] (-) TimerEvent: {}
+[1.881999] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[1.936469] (-) TimerEvent: {}
+[2.038444] (-) TimerEvent: {}
+[2.138788] (-) TimerEvent: {}
+[2.209067] (pretty_woman_interfaces) StderrLine: {'line': b'CMake Error at /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:218 (message):\n'}
+[2.209303] (pretty_woman_interfaces) StderrLine: {'line': b'  Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the\n'}
+[2.209484] (pretty_woman_interfaces) StderrLine: {'line': b'  system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR)\n'}
+[2.209643] (pretty_woman_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.209846] (pretty_woman_interfaces) StderrLine: {'line': b'  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)\n'}
+[2.210056] (pretty_woman_interfaces) StderrLine: {'line': b'  /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindOpenSSL.cmake:536 (find_package_handle_standard_args)\n'}
+[2.210162] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)\n'}
+[2.210292] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)\n'}
+[2.210385] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)\n'}
+[2.210505] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)\n'}
+[2.210594] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)\n'}
+[2.210695] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)\n'}
+[2.210784] (pretty_woman_interfaces) StderrLine: {'line': b'  /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[2.210874] (pretty_woman_interfaces) StderrLine: {'line': b'  CMakeLists.txt:35 (find_package)\n'}
+[2.210962] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[2.211050] (pretty_woman_interfaces) StderrLine: {'line': b'\n'}
+[2.211139] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.211232] (pretty_woman_interfaces) StdoutLine: {'line': b'See also "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.217329] (pretty_woman_interfaces) CommandEnded: {'returncode': 1}
+[2.240583] (-) TimerEvent: {}
+[2.284348] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 1}
+[2.286016] (-) EventReactorShutdown: {}

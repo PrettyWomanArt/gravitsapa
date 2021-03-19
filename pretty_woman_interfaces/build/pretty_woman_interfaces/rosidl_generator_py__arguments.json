@@ -1,0 +1,24 @@
+{
+  "package_name": "pretty_woman_interfaces",
+  "output_dir": "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_py/pretty_woman_interfaces",
+  "template_dir": "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces:srv/InterfaceSerial.idl"
+  ],
+  "target_dependencies": [
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces/srv/InterfaceSerial.idl"
+  ]
+}

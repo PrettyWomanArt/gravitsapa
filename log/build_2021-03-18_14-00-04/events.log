@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (-) JobUnselected: {'identifier': 'pretty_woman'}
+[0.000856] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.000934] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.056772] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.099488] (-) TimerEvent: {}
+[0.186021] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'build'}
+[0.186978] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', '--', '-j4', '-l4'], 'cwd': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('DOPENSSL_ROOT_DIR', '/usr/local/opt/openssl'), ('PWD', '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('OPENSSL_LIBRARIES', '/usr/local/opt/openssl/lib'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('DOPENSSL_LIBRARIES', '/usr/local/opt/openssl/lib'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.202023] (-) TimerEvent: {}
+[0.302551] (-) TimerEvent: {}
+[0.405776] (-) TimerEvent: {}
+[0.508727] (-) TimerEvent: {}
+[0.518362] (pretty_woman_interfaces) StdoutLine: {'line': b'[  6%] Built target pretty_woman_interfaces__cpp\n'}
+[0.518927] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 12%] Built target pretty_woman_interfaces__rosidl_generator_c\n'}
+[0.613087] (-) TimerEvent: {}
+[0.623070] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 22%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.624321] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 25%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[0.625279] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 35%] Built target pretty_woman_interfaces__rosidl_typesupport_cpp\n'}
+[0.627719] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 45%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.704798] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 54%] Built target pretty_woman_interfaces__rosidl_typesupport_c\n'}
+[0.713275] (-) TimerEvent: {}
+[0.813648] (-) TimerEvent: {}
+[0.917725] (-) TimerEvent: {}
+[1.021711] (-) TimerEvent: {}
+[1.123151] (-) TimerEvent: {}
+[1.225169] (-) TimerEvent: {}
+[1.231021] (pretty_woman_interfaces) StderrLine: {'line': b'ld: cannot link directly with dylib/framework, your binary is not an allowed client of /usr/lib/libcrypto.dylib for architecture x86_64\n'}
+[1.234630] (pretty_woman_interfaces) StderrLine: {'line': b'clang: error: linker command failed with exit code 1 (use -v to see invocation)\n'}
+[1.264572] (pretty_woman_interfaces) StderrLine: {'line': b'make[2]: *** [libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib] Error 1\n'}
+[1.265081] (pretty_woman_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[1.265498] (pretty_woman_interfaces) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[1.266683] (pretty_woman_interfaces) CommandEnded: {'returncode': 2}
+[1.330269] (-) TimerEvent: {}
+[1.433123] (-) TimerEvent: {}
+[1.535316] (-) TimerEvent: {}
+[1.635770] (-) TimerEvent: {}
+[1.739255] (-) TimerEvent: {}
+[1.843058] (-) TimerEvent: {}
+[1.943867] (-) TimerEvent: {}
+[2.050771] (-) TimerEvent: {}
+[2.083300] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 2}
+[2.084859] (-) EventReactorShutdown: {}

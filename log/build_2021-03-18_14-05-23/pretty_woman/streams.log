@@ -1,0 +1,29 @@
+[0.353s] Invoking command in '/Users/grigorijhanin/gravitsapa/pretty_woman': PYTHONPATH=/Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base ../build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/build/pretty_woman/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.620s] writing ../build/pretty_woman/pretty_woman.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../build/pretty_woman/pretty_woman.egg-info/dependency_links.txt
+[0.621s] writing entry points to ../build/pretty_woman/pretty_woman.egg-info/entry_points.txt
+[0.621s] writing requirements to ../build/pretty_woman/pretty_woman.egg-info/requires.txt
+[0.621s] writing top-level names to ../build/pretty_woman/pretty_woman.egg-info/top_level.txt
+[0.640s] reading manifest file '../build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.641s] writing manifest file '../build/pretty_woman/pretty_woman.egg-info/SOURCES.txt'
+[0.641s] running build
+[0.641s] running build_py
+[0.642s] running install
+[0.643s] running install_lib
+[0.644s] byte-compiling /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages/pretty_woman/serial_node.py to serial_node.cpython-38.pyc
+[0.645s] running install_data
+[0.645s] running install_egg_info
+[0.648s] removing '/Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info' (and everything under it)
+[0.649s] Copying ../build/pretty_woman/pretty_woman.egg-info to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages/pretty_woman-0.0.0-py3.8.egg-info
+[0.652s] running install_scripts
+[0.681s] Installing eye_node script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.681s] Installing film_node script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.682s] Installing lips_node script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.682s] Installing main_node script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.682s] Installing minimal_publisher script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.683s] Installing minimal_subscriber script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.683s] Installing test_node script to /Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/pretty_woman
+[0.684s] writing list of installed files to '/Users/grigorijhanin/gravitsapa/build/pretty_woman/install.log'
+[0.684s] Sorry: IndentationError: expected an indented block (serial_node.py, line 26)
+[0.704s] Invoked command in '/Users/grigorijhanin/gravitsapa/pretty_woman' returned '0': PYTHONPATH=/Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/local/opt/python@3.8/bin/python3.8 setup.py egg_info --egg-base ../build/pretty_woman build --build-base /Users/grigorijhanin/gravitsapa/build/pretty_woman/build install --prefix /Users/grigorijhanin/gravitsapa/install/pretty_woman --record /Users/grigorijhanin/gravitsapa/build/pretty_woman/install.log --single-version-externally-managed

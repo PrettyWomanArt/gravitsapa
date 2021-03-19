@@ -1,0 +1,14 @@
+[0.188s] Invoking command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4
+[0.518s] [  6%] Built target pretty_woman_interfaces__cpp
+[0.518s] [ 12%] Built target pretty_woman_interfaces__rosidl_generator_c
+[0.622s] [ 22%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp
+[0.623s] [ 25%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib
+[0.624s] [ 35%] Built target pretty_woman_interfaces__rosidl_typesupport_cpp
+[0.627s] [ 45%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_c
+[0.704s] [ 54%] Built target pretty_woman_interfaces__rosidl_typesupport_c
+[1.230s] ld: cannot link directly with dylib/framework, your binary is not an allowed client of /usr/lib/libcrypto.dylib for architecture x86_64
+[1.234s] clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[1.264s] make[2]: *** [libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib] Error 1
+[1.264s] make[1]: *** [CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[1.265s] make: *** [all] Error 2
+[1.266s] Invoked command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4

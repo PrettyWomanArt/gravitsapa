@@ -1,0 +1,2 @@
+Invoking command in '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces -- -j4 -l4
+Invoked command in '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces -- -j4 -l4

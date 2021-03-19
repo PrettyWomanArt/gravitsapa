@@ -1,0 +1,44 @@
+[0.069s] Invoking command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces -DCMAKE_INSTALL_PREFIX=/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces
+[7.673s] -- The C compiler identification is AppleClang 12.0.0.12000032
+[7.828s] -- The CXX compiler identification is AppleClang 12.0.0.12000032
+[7.908s] -- Detecting C compiler ABI info
+[12.365s] -- Detecting C compiler ABI info - done
+[12.393s] -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+[12.396s] -- Detecting C compile features
+[12.402s] -- Detecting C compile features - done
+[12.424s] -- Detecting CXX compiler ABI info
+[12.661s] -- Detecting CXX compiler ABI info - done
+[12.669s] -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+[12.670s] -- Detecting CXX compile features
+[12.670s] -- Detecting CXX compile features - done
+[12.720s] -- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+[12.859s] -- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.7", minimum required is "3") 
+[12.859s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[13.304s] -- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+[13.520s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.525s] -- Added test 'lint_cmake' to check CMake code style
+[13.529s] -- Added test 'xmllint' to check XML markup files
+[13.547s] -- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)
+[13.568s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.604s] -- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)
+[13.685s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_c
+[13.778s] -- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp
+[14.769s] CMake Error at /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:218 (message):
+[14.769s]   Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the
+[14.769s]   system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR)
+[14.769s] Call Stack (most recent call first):
+[14.769s]   /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:582 (_FPHSA_FAILURE_MESSAGE)
+[14.769s]   /usr/local/Cellar/cmake/3.19.5/share/cmake/Modules/FindOpenSSL.cmake:536 (find_package_handle_standard_args)
+[14.769s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/fastrtps/cmake/fastrtps-config.cmake:52 (find_package)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake:6 (find_package)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake:41 (include)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:13 (find_package)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[14.770s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[14.771s]   CMakeLists.txt:37 (find_package)
+[14.771s] 
+[14.771s] 
+[14.771s] -- Configuring incomplete, errors occurred!
+[14.771s] See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".
+[14.781s] Invoked command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces' returned '1': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces -DCMAKE_INSTALL_PREFIX=/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces

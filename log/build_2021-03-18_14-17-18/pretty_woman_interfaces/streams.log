@@ -1,0 +1,24 @@
+[0.096s] Invoking command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4
+[0.288s] -- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+[0.396s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[0.673s] -- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+[0.720s] Traceback (most recent call last):
+[0.720s]   File "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.720s]     from catkin_pkg.package import parse_package_string
+[0.720s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.723s] CMake Error at /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.723s]   execute_process(/usr/local/bin/python3
+[0.723s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.723s]   /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/package.xml
+[0.724s]   /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/ament_cmake_core/package.cmake)
+[0.724s]   returned error code 1
+[0.724s] Call Stack (most recent call first):
+[0.724s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.724s]   /Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.724s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.724s] 
+[0.724s] 
+[0.724s] -- Configuring incomplete, errors occurred!
+[0.724s] See also "/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces/CMakeFiles/CMakeOutput.log".
+[0.728s] make: *** [cmake_check_build_system] Error 1
+[0.730s] Invoked command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4

@@ -1,0 +1,25 @@
+-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces
+-- Install configuration: ""
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/package_run_dependencies/pretty_woman_interfaces
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/parent_prefix_path/pretty_woman_interfaces
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/ament_prefix_path.sh
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/path.sh
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/environment/path.dsv
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.bash
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.sh
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.zsh
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/local_setup.dsv
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.dsv
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/ament_index/resource_index/packages/pretty_woman_interfaces
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/cmake/pretty_woman_interfacesConfig.cmake
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/cmake/pretty_woman_interfacesConfig-version.cmake
+-- Installing: /Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.xml

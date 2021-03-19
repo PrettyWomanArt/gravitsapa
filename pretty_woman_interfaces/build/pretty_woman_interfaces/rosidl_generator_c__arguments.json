@@ -1,0 +1,24 @@
+{
+  "package_name": "pretty_woman_interfaces",
+  "output_dir": "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_c/pretty_woman_interfaces",
+  "template_dir": "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces:srv/InterfaceSerial.idl"
+  ],
+  "target_dependencies": [
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_adapter/pretty_woman_interfaces/srv/InterfaceSerial.idl"
+  ]
+}

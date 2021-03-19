@@ -1,0 +1,169 @@
+[0.578s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--packages-select', 'pretty_woman_interfaces']
+[0.578s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x110f6ccd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['pretty_woman_interfaces'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x110f6ccd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x110f79280>)
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.604s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/Users/grigorijhanin/gravitsapa'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(3D models) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(eyes_node) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'ros'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['cmake', 'python']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'cmake'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lips_node) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'pretty_woman' with type 'ros.ament_python' and name 'pretty_woman'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(pretty_woman_interfaces) by extension 'ros'
+[0.626s] DEBUG:colcon.colcon_core.package_identification:Package 'pretty_woman_interfaces' with type 'ros.ament_cmake' and name 'pretty_woman_interfaces'
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.673s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pretty_woman' in 'pretty_woman'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'pretty_woman_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'pretty_woman_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces', 'merge_install': False, 'path': '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.686s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces' with build type 'ament_cmake'
+[0.702s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces'
+[0.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces' returned '2': SHLVL=2 _=/usr/bin/env /usr/local/bin/cmake --build /Users/grigorijhanin/gravitsapa/build/pretty_woman_interfaces -- -j4 -l4
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pretty_woman_interfaces)
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces' for CMake module files
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces' for CMake config files
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('pretty_woman_interfaces', 'cmake_prefix_path')
+[1.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/hook/cmake_prefix_path.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/hook/cmake_prefix_path.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/hook/cmake_prefix_path.sh'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/lib'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/bin'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/lib/pkgconfig/pretty_woman_interfaces.pc'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/lib/python3.8/site-packages'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.sh'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.bash'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package script '/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/pretty_woman_interfaces/package.zsh'
+[1.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/grigorijhanin/gravitsapa/install/pretty_woman_interfaces/share/colcon-core/packages/pretty_woman_interfaces)
+[1.637s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.638s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.638s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.638s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[1.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'terminal_notifier'
+[1.737s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/grigorijhanin/gravitsapa/install/local_setup.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/grigorijhanin/gravitsapa/install/_local_setup_util_ps1.py'
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/grigorijhanin/gravitsapa/install/setup.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/grigorijhanin/gravitsapa/install/local_setup.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/grigorijhanin/gravitsapa/install/_local_setup_util_sh.py'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/grigorijhanin/gravitsapa/install/setup.sh'
+[1.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/grigorijhanin/gravitsapa/install/local_setup.bash'
+[1.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/grigorijhanin/gravitsapa/install/setup.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/grigorijhanin/gravitsapa/install/local_setup.zsh'
+[1.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/grigorijhanin/gravitsapa/install/setup.zsh'

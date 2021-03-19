@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (pretty_woman_interfaces) JobQueued: {'identifier': 'pretty_woman_interfaces', 'dependencies': OrderedDict()}
+[0.000491] (pretty_woman_interfaces) JobStarted: {'identifier': 'pretty_woman_interfaces'}
+[0.052861] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'cmake'}
+[0.054535] (pretty_woman_interfaces) JobProgress: {'identifier': 'pretty_woman_interfaces', 'progress': 'build'}
+[0.055435] (pretty_woman_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces', '--', '-j4', '-l4'], 'cwd': '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('TMPDIR', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/'), ('TERM_PROGRAM_VERSION', '1.54.2'), ('ROS_PYTHON_VERSION', '3'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('AMENT_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('USER', 'grigorijhanin'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.4FTQxDEwxH/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x7:0x31'), ('PATH', '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/grigorijhanin/ros2_foxy/ros2-osx/bin'), ('DOPENSSL_ROOT_DIR', '/usr/local/opt/openssl'), ('PWD', '/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces'), ('COLCON', '1'), ('LANG', 'ru_RU.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('OPENSSL_ROOT_DIR', '/usr/local/opt/openssl'), ('SHLVL', '2'), ('HOME', '/Users/grigorijhanin'), ('VSCODE_GIT_ASKPASS_MAIN', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('ROS_DISTRO', 'foxy'), ('DYLD_LIBRARY_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/yaml_cpp_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/opt/rviz_ogre_vendor/lib:/Users/grigorijhanin/ros2_foxy/ros2-osx/lib'), ('PYTHONPATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'grigorijhanin'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/9l/4c76c0l54f79j95fy8d2bt3w0000gn/T/vscode-git-4175134694.sock'), ('PKG_CONFIG_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/pkgconfig'), ('VSCODE_GIT_ASKPASS_NODE', '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)'), ('GIT_ASKPASS', '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/Users/grigorijhanin/ros2_foxy/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('DOPENSSL_LIBRARIES', '/usr/local/opt/openssl/lib'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.104402] (-) TimerEvent: {}
+[0.174097] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.209454] (-) TimerEvent: {}
+[0.224540] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.309834] (-) TimerEvent: {}
+[0.413881] (-) TimerEvent: {}
+[0.465506] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[0.518949] (-) TimerEvent: {}
+[0.574785] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_default_generators/cmake)\n'}
+[0.579251] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.587319] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/rosidl_adapter/cmake)\n'}
+[0.623608] (-) TimerEvent: {}
+[0.636564] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_c\n'}
+[0.671931] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Could not find RTI Connext - skipping rosidl_typesupport_connext_cpp\n'}
+[0.728351] (-) TimerEvent: {}
+[0.828914] (-) TimerEvent: {}
+[0.929221] (-) TimerEvent: {}
+[0.968331] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.033715] (-) TimerEvent: {}
+[1.056284] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/local/bin/python3 (found version "3.8.7") \n'}
+[1.133871] (-) TimerEvent: {}
+[1.168406] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/ament_cmake_ros/cmake)\n'}
+[1.238913] (-) TimerEvent: {}
+[1.341037] (-) TimerEvent: {}
+[1.442063] (-) TimerEvent: {}
+[1.452349] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.476447] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.521396] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.8.7", minimum required is "3.5") \n'}
+[1.531760] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/Users/grigorijhanin/ros2_foxy/ros2-osx/share/python_cmake_module/cmake)\n'}
+[1.542864] (-) TimerEvent: {}
+[1.616467] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PythonExtra_INCLUDE_DIRS: /usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/include/python3.8;/usr/local/Cellar/python@3.8/3.8.7_2/Frameworks/Python.framework/Versions/3.8/include/python3.8\n'}
+[1.644410] (-) TimerEvent: {}
+[1.666275] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using PythonExtra_LIBRARIES: /usr/local/opt/python@3.8/Frameworks/Python.framework/Versions/3.8/lib/python3.8/config-3.8-darwin/libpython3.8.dylib\n'}
+[1.705164] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.746957] (-) TimerEvent: {}
+[1.848627] (-) TimerEvent: {}
+[1.949038] (-) TimerEvent: {}
+[2.049541] (-) TimerEvent: {}
+[2.150014] (-) TimerEvent: {}
+[2.252390] (-) TimerEvent: {}
+[2.352924] (-) TimerEvent: {}
+[2.450057] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Using numpy include directory: /Users/grigorijhanin/Library/Python/3.8/lib/python/site-packages/numpy/core/include\n'}
+[2.453631] (-) TimerEvent: {}
+[2.469341] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.497858] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.500215] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_c>;/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_c;/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_cpp;/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_typesupport_fastrtps_c;/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_typesupport_c>;$<BUILD_INTERFACE:/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_cpp>;/Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces/rosidl_generator_py\n'}
+[2.500358] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.527286] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.527460] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.531329] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.538539] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.542578] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.555320] (-) TimerEvent: {}
+[2.571149] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.571335] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.575913] (pretty_woman_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.597109] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.658449] (-) TimerEvent: {}
+[2.709986] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.721236] (pretty_woman_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /Users/grigorijhanin/gravitsapa/pretty_woman_interfaces/build/pretty_woman_interfaces\n'}
+[2.762407] (-) TimerEvent: {}
+[2.791871] (pretty_woman_interfaces) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[2.793486] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__cpp\n'}
+[2.832067] (pretty_woman_interfaces) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[2.862943] (-) TimerEvent: {}
+[2.968157] (-) TimerEvent: {}
+[3.070373] (-) TimerEvent: {}
+[3.175334] (-) TimerEvent: {}
+[3.197922] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_generator_c\n'}
+[3.200989] (pretty_woman_interfaces) StdoutLine: {'line': b'[  6%] Built target pretty_woman_interfaces__cpp\n'}
+[3.258184] (pretty_woman_interfaces) StdoutLine: {'line': b'[  9%] Generating C++ type support dispatch for ROS interfaces\n'}
+[3.262716] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 12%] Generating C++ introspection for ROS interfaces\n'}
+[3.273146] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 16%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[3.276288] (-) TimerEvent: {}
+[3.322732] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 19%] Building C object CMakeFiles/pretty_woman_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pretty_woman_interfaces/srv/detail/interface_serial__functions.c.o\n'}
+[3.377610] (-) TimerEvent: {}
+[3.480553] (-) TimerEvent: {}
+[3.582338] (-) TimerEvent: {}
+[3.648427] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_cpp\n'}
+[3.677542] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.682710] (-) TimerEvent: {}
+[3.702891] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pretty_woman_interfaces/srv/interface_serial__type_support.cpp.o\n'}
+[3.731617] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pretty_woman_interfaces/srv/detail/interface_serial__type_support.cpp.o\n'}
+[3.757498] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.782928] (-) TimerEvent: {}
+[3.796939] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pretty_woman_interfaces/srv/detail/dds_fastrtps/interface_serial__type_support.cpp.o\n'}
+[3.885186] (-) TimerEvent: {}
+[3.989710] (-) TimerEvent: {}
+[4.090316] (-) TimerEvent: {}
+[4.194581] (-) TimerEvent: {}
+[4.235268] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 32%] Linking C shared library libpretty_woman_interfaces__rosidl_generator_c.dylib\n'}
+[4.297695] (-) TimerEvent: {}
+[4.398765] (-) TimerEvent: {}
+[4.448415] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 32%] Built target pretty_woman_interfaces__rosidl_generator_c\n'}
+[4.481038] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 35%] Generating C introspection for ROS interfaces\n'}
+[4.501037] (-) TimerEvent: {}
+[4.602363] (-) TimerEvent: {}
+[4.706710] (-) TimerEvent: {}
+[4.810515] (-) TimerEvent: {}
+[4.824588] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.860663] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pretty_woman_interfaces/srv/detail/interface_serial__type_support.c.o\n'}
+[4.915181] (-) TimerEvent: {}
+[4.987484] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 41%] Linking C shared library libpretty_woman_interfaces__rosidl_typesupport_introspection_c.dylib\n'}
+[5.020391] (-) TimerEvent: {}
+[5.120711] (-) TimerEvent: {}
+[5.138610] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 41%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.173227] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 45%] Generating C type support dispatch for ROS interfaces\n'}
+[5.221377] (-) TimerEvent: {}
+[5.321694] (-) TimerEvent: {}
+[5.405890] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 48%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_cpp.dylib\n'}
+[5.421920] (-) TimerEvent: {}
+[5.480137] (pretty_woman_interfaces) StdoutLine: {'line': b'Scanning dependencies of target pretty_woman_interfaces__rosidl_typesupport_c\n'}
+[5.522046] (-) TimerEvent: {}
+[5.526433] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pretty_woman_interfaces/srv/interface_serial__type_support.cpp.o\n'}
+[5.531733] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 51%] Built target pretty_woman_interfaces__rosidl_typesupport_cpp\n'}
+[5.546579] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_introspection_cpp.dylib\n'}
+[5.606600] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 58%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_c.dylib\n'}
+[5.625065] (-) TimerEvent: {}
+[5.652685] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 58%] Built target pretty_woman_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.706709] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 58%] Built target pretty_woman_interfaces__rosidl_typesupport_c\n'}
+[5.725169] (-) TimerEvent: {}
+[5.830135] (-) TimerEvent: {}
+[5.930600] (-) TimerEvent: {}
+[6.030903] (-) TimerEvent: {}
+[6.132347] (-) TimerEvent: {}
+[6.203612] (pretty_woman_interfaces) StdoutLine: {'line': b'[ 61%] Linking CXX shared library libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib\n'}
+[6.232641] (-) TimerEvent: {}
+[6.267919] (pretty_woman_interfaces) StderrLine: {'line': b'ld: cannot link directly with dylib/framework, your binary is not an allowed client of /usr/lib/libcrypto.dylib for architecture x86_64\n'}
+[6.268650] (pretty_woman_interfaces) StderrLine: {'line': b'clang: error: linker command failed with exit code 1 (use -v to see invocation)\n'}
+[6.270085] (pretty_woman_interfaces) StderrLine: {'line': b'make[2]: *** [libpretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dylib] Error 1\n'}
+[6.270464] (pretty_woman_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/pretty_woman_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[6.270954] (pretty_woman_interfaces) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[6.272236] (pretty_woman_interfaces) CommandEnded: {'returncode': 2}
+[6.333404] (-) TimerEvent: {}
+[6.434459] (-) TimerEvent: {}
+[6.535326] (-) TimerEvent: {}
+[6.637330] (-) TimerEvent: {}
+[6.739635] (-) TimerEvent: {}
+[6.844858] (-) TimerEvent: {}
+[6.946029] (-) TimerEvent: {}
+[7.048065] (-) TimerEvent: {}
+[7.101268] (pretty_woman_interfaces) JobEnded: {'identifier': 'pretty_woman_interfaces', 'rc': 2}
+[7.102906] (-) EventReactorShutdown: {}
