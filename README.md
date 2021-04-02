@@ -22,3 +22,50 @@
 
 Схема Node ROS
 ![Node Scheme](/images/node_scheme_rqt.bmp)
+
+## Старт  ROS bridge
+
+Запустим ROS1
+
+```shell
+# Shell A (ROS 1 only):
+. /pretty_woman/ro1/setup.bash
+# Or, on OSX, something like:
+# . ~/ros_catkin_ws/install_isolated/setup.bash
+roscore
+```
+
+Запустим bridge
+```shell
+# Shell B (ROS 1 + ROS 2):
+
+# Source ROS 1 first:
+
+. /opt/ros/melodic/setup.bash
+
+# Or, on OSX, something like:
+
+# . ~/ros_catkin_ws/install_isolated/setup.bash
+
+# Source ROS 2 next:
+
+. <install-space-with-bridge>/setup.bash
+
+# For example:
+
+# . /opt/ros/dashing/setup.bash
+
+export ROS_MASTER_URI=http://localhost:11311
+ros2 run ros1_bridge dynamic_bridge
+```
+
+Запуск нод
+
+```shell
+# Shell C:
+. /pretty_woman/pretty_woman/setup.bash
+# Or, on OSX, something like:
+# . ~/ros_catkin_ws/install_isolated/setup.bash
+rosrun /pretty_woman/pretty_woman/node.py 
+```
+
