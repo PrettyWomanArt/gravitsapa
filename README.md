@@ -23,6 +23,10 @@
 Схема Node ROS
 ![Node Scheme](/images/node_scheme_rqt.bmp)
 
+# Рендеры картины
+
+![Render image](/images/render.png)
+
 ## Старт  ROS bridge
 
 Запустим ROS1
@@ -59,7 +63,7 @@ export ROS_MASTER_URI=http://localhost:11311
 ros2 run ros1_bridge dynamic_bridge
 ```
 
-Запуск нод
+Запуск ROS
 
 ```shell
 # Shell C:
