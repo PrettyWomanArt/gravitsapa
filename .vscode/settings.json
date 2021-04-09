@@ -1,0 +1,6 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/Users/grigorijhanin/gravitsapa/install/pretty_woman/lib/python3.8/site-packages",
+        "/Users/grigorijhanin/ros2_foxy/ros2-osx/lib/python3.8/site-packages"
+    ]
+}
