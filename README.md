@@ -13,6 +13,7 @@
 Реализовать идею описанную выше
 
 **Задачи проекта:**
+
 - Дизайн картины
 - Реализация глаз
 - Реализация губ
@@ -22,6 +23,18 @@
 
 Схема Node ROS
 ![Node Scheme](/images/node_scheme_rqt.bmp)
+
+**Картины**
+
+Внешняя
+
+![Node Scheme](/images/outer_pic.jpg)
+
+Внутренняя
+
+![Node Scheme](/images/inner_pic.jpg)
+
+****
 
 # Рендеры картины
 
