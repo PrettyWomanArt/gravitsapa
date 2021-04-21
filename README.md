@@ -1,4 +1,5 @@
 # Картина PrettyWoman
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y34DGGP)
 **Описание:**
 
 Проект из себя представляет картину. На картине изображен портрет страшной женщины с большими губами. 
