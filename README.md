@@ -40,6 +40,10 @@
 
 ![Render image](/images/render.png)
 
+# Тестовый стенд
+
+![Render image](/images/test_stand.png)
+
 ## Старт  ROS bridge
 
 Запустим ROS1
