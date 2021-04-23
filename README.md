@@ -42,7 +42,7 @@
 
 # Тестовый стенд
 
-![Render image](/images/test_stand.png)
+![Render image](/images/test_stand.jpg)
 
 ## Старт  ROS bridge
 
