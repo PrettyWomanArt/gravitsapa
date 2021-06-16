@@ -75,11 +75,11 @@ class MainNode(Node):
         self.eye_subscription = self.create_subscription(
             Bool,
             'eye_status',
-            self.eye_listner_callback,
+            self.eye_listener_callback,
             10
         )
         
-    def lips_listener(self, msg):
+    def lips_listener(self, msg: Bool):
         """Выполняет логику губ.
 
         Метод выполняет логику управления губами. Метод получает состояние губ из
@@ -100,7 +100,7 @@ class MainNode(Node):
             self.get_logger().info('Lips are untouched')
         self.eye_control_callback(msg)
 
-    def eye_control_callback(self, msg):
+    def eye_control_callback(self, msg: Bool):
         """Выполняет логику глаз.
 
         Метод реализует логику управления глазами. Если параметр :param:msg 
@@ -154,7 +154,7 @@ class MainNode(Node):
         self.get_logger().info("Initialize film rolling")
         self.film_publisher.publish(msg)
 
-    def eye_listner_callback(self, msg):
+    def eye_listener_callback(self, msg: Bool):
         """Отслеживает статус глаз
 
         Метод подписан на топик 'eye_status'. Если статус в топике отличается
@@ -175,6 +175,7 @@ class MainNode(Node):
             else:
                 self.get_logger().info('Eyes are closed')
             self.eye_opened = msg.data
+
 
 def main(args=None):
     """Инициализация и уничтожение ноды

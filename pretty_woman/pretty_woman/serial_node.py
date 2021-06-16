@@ -61,7 +61,7 @@ class SerialNode(Node):
         self.serial_publisher = self.create_publisher(String, 'serial_answer', 10)
         self.port = serial.Serial("/dev/cu.usbmodem14201", 115200)
 
-    def send_callback(self, msg):
+    def send_callback(self, msg: String):
         """Колбек топика 'serial_send'.
 
         Метод реализует общение между нодами ROS и Arduino. В параметре :param:msg
@@ -89,7 +89,6 @@ def main(args=None):
     rclpy.init(args=args)
 
     serial_node = SerialNode()
-
 
     rclpy.spin(serial_node)
 
