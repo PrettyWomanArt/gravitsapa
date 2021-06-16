@@ -1,4 +1,4 @@
-# Картина PrettyWoman
+# Картина PrettyWoman[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y34DGGP)
 **Описание:**
 
 Проект из себя представляет картину. На картине изображен портрет страшной женщины с большими губами. 
@@ -39,6 +39,10 @@
 # Рендеры картины
 
 ![Render image](/images/render.png)
+
+# Тестовый стенд
+
+![Render image](/images/test_stand.jpg)
 
 ## Старт  ROS bridge
 
