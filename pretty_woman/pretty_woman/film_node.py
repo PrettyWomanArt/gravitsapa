@@ -44,7 +44,7 @@ class FilmNode(Node):
         self.serial_send_publisher = self.create_publisher(String, 'serial_send', 10)
         self.film_listener = self.create_subscription(Int16, 'film_control', self.film_callback, 10)
 
-    def film_callback(self, msg):
+    def film_callback(self, msg: Int16):
         """Колбек топика 'film_control'.
 
         Метод реализует логику управления глазами. Параметр :param:msg 
@@ -72,7 +72,6 @@ def main(args=None):
     rclpy.init(args=args)
 
     film_node = FilmNode()
-
 
     rclpy.spin(film_node)
 

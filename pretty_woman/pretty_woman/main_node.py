@@ -45,7 +45,7 @@ class MainNode(Node):
 
     Методы
     -------
-    lips_listner(msg)
+    lips_listener(msg)
         Получает сообщения из топика 'lips_status' и исполняет передает
         и передает ее в attr::eye_control_callback
     eye_control_callback(msg)
@@ -54,7 +54,7 @@ class MainNode(Node):
         Отправляет статус глаз в топик 'eye_status' по таймеру
     film_control_callback(length)
         Выполняет логику системы подачи пленки.
-    eye_listner_callback(msg)
+    eye_listener_callback(msg)
         Отслеживает статус глаз из топика 'eye_status'.
 
     SideEffects
@@ -80,6 +80,20 @@ class MainNode(Node):
         )
         
     def lips_listener(self, msg):
+        """Выполняет логику губ.
+
+        Метод выполняет логику управления губами. Метод получает состояние губ из
+        топика 'lips_status' и передает его в метод :attr:self.eye_control_callback
+
+        Параметры
+        ----------
+        msg : std_msgs.msg.Bool
+            сообщение об со статусом губ
+
+        SideEffects
+        -----------
+        Логирует действие
+        """
         if msg.data:
             self.get_logger().info('Lips are touched')
         else:

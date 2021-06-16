@@ -54,7 +54,7 @@ class EyeNode(Node):
         self.serial_listner = self.create_subscription(String, 'serial_answer', 10)
         self.timer = self.create_timer(0.5, self.eye_status)
 
-    def eye_callback(self, msg):
+    def eye_callback(self, msg: Bool):
         """Колбек топика 'eye_control'.
 
         Метод реализует логику управления глазами. Если параметр :param:msg 
@@ -71,7 +71,7 @@ class EyeNode(Node):
         -----------
         При получении сообщения логирует действие
         """
-        if msg.data == True:
+        if msg.data:
             self.serial_send_publisher.write(b"o")
             self.get_logger().info("Eye are opening...")
         else:

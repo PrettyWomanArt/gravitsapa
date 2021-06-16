@@ -65,7 +65,7 @@ class LipsNode(Node):
         self.serial_send_publisher.publish(msg)
         ans = self.serial_listner.readline()
         if ans == b'touched':
-            msg =Bool()
+            msg = Bool()
             msg.data = True
             self.lips_publisher.publish(msg)
         else:
